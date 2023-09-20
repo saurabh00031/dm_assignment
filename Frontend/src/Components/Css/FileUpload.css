@@ -1,0 +1,64 @@
+/* FileUpload.css */
+
+.file-upload-form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form-label {
+    font-weight: bold;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  /* FileUpload.css */
+
+/* Center the entire content */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .file-upload-form {
+    max-width: 400px;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form-label {
+    font-weight: bold;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    margin-top: 20px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  

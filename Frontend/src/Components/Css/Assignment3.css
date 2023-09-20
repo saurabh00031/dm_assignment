@@ -1,0 +1,58 @@
+/* Assignment3.css */
+
+/* Container styles */
+.assignment3-container {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 20px auto; /* Center the container horizontally and add margin from the top */
+    max-width: 800px; /* Adjust the max-width as needed */
+  }
+  
+  /* Content container styles */
+  .content-container {
+    overflow: hidden; /* Hide the content that overflows */
+  }
+  
+  /* Data table styles */
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; /* Add space between the heading and the table */
+  }
+  
+  .data-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .data-table td:first-child {
+    font-weight: bold;
+    width: 30%; /* Adjust the width of the first column */
+  }
+  
+  /* Loading text styles */
+  .loading-text {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  /* Update the font and margin for the 'No data available' message */
+  p.no-data {
+    font-size: 18px;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  /* Image styles */
+  img {
+    max-width: 100%; /* Make images responsive */
+    height: auto;
+    display: block; /* Remove extra spacing below images */
+    margin-top: 10px; /* Add space between the image and the table */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add a subtle shadow to images */
+  }
+  
